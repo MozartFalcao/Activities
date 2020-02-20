@@ -25,9 +25,6 @@ Creating a project solution and the structure of the project on VsCode
 >> ..\API> dotnet add reference ..\Application\
 >> ..\Persistence> dotnet add reference ..\Domain\
 
-
-
-
 8 --> When the classes are finaly setted just migrate the data base command. 
 >> dotnet ef migration add initialCreate -p Persistence/ -s API/
 
